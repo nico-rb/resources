@@ -1,0 +1,17 @@
+[project]
+name = "resources"
+version = "0.1.0"
+description = "A collection of resources for various topics."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "ruff>=0.15.6",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
