@@ -15,3 +15,9 @@ resources(WorkSpace).code-workspace
 
 # data
 private/
+
+# Models (binary files)
+models/*.joblib
+
+# Notebook checkpoints
+.ipynb_checkpoints/
